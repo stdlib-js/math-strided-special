@@ -112,7 +112,8 @@
     "@stdlib/math-strided-special-ssqrt": "^0.0.x",
     "@stdlib/math-strided-special-strunc": "^0.0.x",
     "@stdlib/math-strided-special-trunc": "^0.0.x",
-    "@stdlib/utils-define-read-only-property": "^0.0.x"
+    "@stdlib/utils-define-read-only-property": "^0.0.x",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-dtypes": "^0.0.x",
