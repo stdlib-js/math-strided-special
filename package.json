@@ -67,6 +67,7 @@
     "@stdlib/math-strided-special-dabs": "^0.0.x",
     "@stdlib/math-strided-special-dabs2": "^0.0.x",
     "@stdlib/math-strided-special-dcbrt": "^0.0.x",
+    "@stdlib/math-strided-special-dcbrt-by": "^0.0.x",
     "@stdlib/math-strided-special-dceil": "^0.0.x",
     "@stdlib/math-strided-special-ddeg2rad": "^0.0.x",
     "@stdlib/math-strided-special-deg2rad": "^0.0.x",
