@@ -18,26 +18,47 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Special Functions
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Strided array special math functions.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-strided-special
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { abs, abs2, abs2By, absBy, acosBy, acoshBy, acotBy, acothBy, acovercosBy, acoversinBy, ahavercosBy, ahaversinBy, asinBy, asinhBy, atanBy, atanhBy, avercosBy, aversinBy, besselj0By, besselj1By, bessely0By, bessely1By, binetBy, cbrt, ceil, dabs, dabs2, dcbrt, dceil, ddeg2rad, deg2rad, dfloor, dinv, dmskabs, dmskabs2, dmskcbrt, dmskceil, dmskdeg2rad, dmskfloor, dmskinv, dmskramp, dmskrsqrt, dmsksqrt, dmsktrunc, dramp, drsqrt, dsqrt, dtrunc, floor, inv, ramp, rsqrt, sabs, sabs2, scbrt, sceil, sdeg2rad, sfloor, sinv, smskabs, smskabs2, smskcbrt, smskceil, smskdeg2rad, smskfloor, smskinv, smskramp, smskrsqrt, smsksqrt, smsktrunc, sqrt, sramp, srsqrt, ssqrt, strunc, trunc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@esm/index.mjs';
+var ns = require( '@stdlib/math-strided-special' );
 ```
 
 #### ns
@@ -78,10 +99,13 @@ The namespace contains the following strided array functions:
 -   <span class="signature">[`bessely0By( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/bessely0-by]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the second kind of order zero for each element retrieved from an input strided array via a callback function.</span>
 -   <span class="signature">[`bessely1By( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/bessely1-by]</span><span class="delimiter">: </span><span class="description">compute the Bessel function of the second kind of order one for each element retrieved from an input strided array via a callback function.</span>
 -   <span class="signature">[`binetBy( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/binet-by]</span><span class="delimiter">: </span><span class="description">evaluate Binet's formula extended to real numbers for each element retrieved from an input strided array via a callback function.</span>
+-   <span class="signature">[`cbrtBy( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/cbrt-by]</span><span class="delimiter">: </span><span class="description">compute the cube root of each element retrieved from an input strided array via a callback function.</span>
 -   <span class="signature">[`cbrt( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/cbrt]</span><span class="delimiter">: </span><span class="description">compute the cube root of each element in a strided array.</span>
 -   <span class="signature">[`ceil( N, dtypeX, x, strideX, dtypeY, y, strideY )`][@stdlib/math/strided/special/ceil]</span><span class="delimiter">: </span><span class="description">round each element in a strided array toward positive infinity.</span>
+-   <span class="signature">[`cosBy( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/cos-by]</span><span class="delimiter">: </span><span class="description">compute the cosine for each element retrieved from an input strided array via a callback function.</span>
 -   <span class="signature">[`dabs( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/dabs]</span><span class="delimiter">: </span><span class="description">compute the absolute value for each element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dabs2( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/dabs2]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value for each element in a double-precision floating-point strided array.</span>
+-   <span class="signature">[`dcbrtBy( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/dcbrt-by]</span><span class="delimiter">: </span><span class="description">compute the cube root of each element retrieved from a double-precision floating-point strided array via a callback function.</span>
 -   <span class="signature">[`dcbrt( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/dcbrt]</span><span class="delimiter">: </span><span class="description">compute the cube root of each element in a double-precision floating-point strided array.</span>
 -   <span class="signature">[`dceil( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/dceil]</span><span class="delimiter">: </span><span class="description">round each element in a double-precision floating-point strided array toward positive infinity.</span>
 -   <span class="signature">[`ddeg2rad( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/ddeg2rad]</span><span class="delimiter">: </span><span class="description">convert each element in a double-precision floating-point strided array from degrees to radians.</span>
@@ -113,6 +137,7 @@ The namespace contains the following strided array functions:
 -   <span class="signature">[`sceil( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/sceil]</span><span class="delimiter">: </span><span class="description">round each element in a single-precision floating-point strided array toward positive infinity.</span>
 -   <span class="signature">[`sdeg2rad( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/sdeg2rad]</span><span class="delimiter">: </span><span class="description">convert each element in a single-precision floating-point strided array from degrees to radians.</span>
 -   <span class="signature">[`sfloor( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/sfloor]</span><span class="delimiter">: </span><span class="description">round each element in a single-precision floating-point strided array toward negative infinity.</span>
+-   <span class="signature">[`sinBy( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/sin-by]</span><span class="delimiter">: </span><span class="description">compute the sine of each element retrieved from an input strided array via a callback function.</span>
 -   <span class="signature">[`sinv( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/sinv]</span><span class="delimiter">: </span><span class="description">compute the multiplicative inverse for each element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`smskabs( N, x, sx, m, sm, y, sy )`][@stdlib/math/strided/special/smskabs]</span><span class="delimiter">: </span><span class="description">compute the absolute value for each element in a single-precision floating-point strided array according to a strided mask array.</span>
 -   <span class="signature">[`smskabs2( N, x, sx, m, sm, y, sy )`][@stdlib/math/strided/special/smskabs2]</span><span class="delimiter">: </span><span class="description">compute the squared absolute value for each element in a single-precision floating-point strided array according to a strided mask array.</span>
@@ -125,6 +150,7 @@ The namespace contains the following strided array functions:
 -   <span class="signature">[`smskrsqrt( N, x, sx, m, sm, y, sy )`][@stdlib/math/strided/special/smskrsqrt]</span><span class="delimiter">: </span><span class="description">compute the reciprocal square root for each element in a single-precision floating-point strided array according to a strided mask array.</span>
 -   <span class="signature">[`smsksqrt( N, x, sx, m, sm, y, sy )`][@stdlib/math/strided/special/smsksqrt]</span><span class="delimiter">: </span><span class="description">compute the principal square root for each element in a single-precision floating-point strided array according to a strided mask array.</span>
 -   <span class="signature">[`smsktrunc( N, x, sx, m, sm, y, sy )`][@stdlib/math/strided/special/smsktrunc]</span><span class="delimiter">: </span><span class="description">round each element in a single-precision floating-point strided array toward zero according to a strided mask array.</span>
+-   <span class="signature">[`sqrtBy( N, x, strideX, y, strideY, clbk[, thisArg] )`][@stdlib/math/strided/special/sqrt-by]</span><span class="delimiter">: </span><span class="description">compute the principal square root for each element retrieved from an input strided array via a callback function.</span>
 -   <span class="signature">[`sqrt( N, dtypeX, x, strideX, dtypeY, y, strideY )`][@stdlib/math/strided/special/sqrt]</span><span class="delimiter">: </span><span class="description">compute the principal square root for each element in a strided array.</span>
 -   <span class="signature">[`sramp( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/sramp]</span><span class="delimiter">: </span><span class="description">evaluate the ramp function for each element in a single-precision floating-point strided array.</span>
 -   <span class="signature">[`srsqrt( N, x, strideX, y, strideY )`][@stdlib/math/strided/special/srsqrt]</span><span class="delimiter">: </span><span class="description">compute the reciprocal square root for each element in a single-precision floating-point strided array.</span>
@@ -148,20 +174,11 @@ The namespace contains the following strided array functions:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/math-strided-special' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -185,7 +202,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -202,7 +219,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -215,8 +232,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-strided-special.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-strided-special
 
-[test-image]: https://github.com/stdlib-js/math-strided-special/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/math-strided-special/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/math-strided-special/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/math-strided-special/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-strided-special/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-strided-special?branch=main
@@ -229,7 +246,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -247,157 +264,167 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/math/strided/special/abs-by]: https://github.com/stdlib-js/math-strided-special-abs-by/tree/esm
+[@stdlib/math/strided/special/abs-by]: https://github.com/stdlib-js/math-strided-special-abs-by
 
-[@stdlib/math/strided/special/abs]: https://github.com/stdlib-js/math-strided-special-abs/tree/esm
+[@stdlib/math/strided/special/abs]: https://github.com/stdlib-js/math-strided-special-abs
 
-[@stdlib/math/strided/special/abs2-by]: https://github.com/stdlib-js/math-strided-special-abs2-by/tree/esm
+[@stdlib/math/strided/special/abs2-by]: https://github.com/stdlib-js/math-strided-special-abs2-by
 
-[@stdlib/math/strided/special/abs2]: https://github.com/stdlib-js/math-strided-special-abs2/tree/esm
+[@stdlib/math/strided/special/abs2]: https://github.com/stdlib-js/math-strided-special-abs2
 
-[@stdlib/math/strided/special/acos-by]: https://github.com/stdlib-js/math-strided-special-acos-by/tree/esm
+[@stdlib/math/strided/special/acos-by]: https://github.com/stdlib-js/math-strided-special-acos-by
 
-[@stdlib/math/strided/special/acosh-by]: https://github.com/stdlib-js/math-strided-special-acosh-by/tree/esm
+[@stdlib/math/strided/special/acosh-by]: https://github.com/stdlib-js/math-strided-special-acosh-by
 
-[@stdlib/math/strided/special/acot-by]: https://github.com/stdlib-js/math-strided-special-acot-by/tree/esm
+[@stdlib/math/strided/special/acot-by]: https://github.com/stdlib-js/math-strided-special-acot-by
 
-[@stdlib/math/strided/special/acoth-by]: https://github.com/stdlib-js/math-strided-special-acoth-by/tree/esm
+[@stdlib/math/strided/special/acoth-by]: https://github.com/stdlib-js/math-strided-special-acoth-by
 
-[@stdlib/math/strided/special/acovercos-by]: https://github.com/stdlib-js/math-strided-special-acovercos-by/tree/esm
+[@stdlib/math/strided/special/acovercos-by]: https://github.com/stdlib-js/math-strided-special-acovercos-by
 
-[@stdlib/math/strided/special/acoversin-by]: https://github.com/stdlib-js/math-strided-special-acoversin-by/tree/esm
+[@stdlib/math/strided/special/acoversin-by]: https://github.com/stdlib-js/math-strided-special-acoversin-by
 
-[@stdlib/math/strided/special/ahavercos-by]: https://github.com/stdlib-js/math-strided-special-ahavercos-by/tree/esm
+[@stdlib/math/strided/special/ahavercos-by]: https://github.com/stdlib-js/math-strided-special-ahavercos-by
 
-[@stdlib/math/strided/special/ahaversin-by]: https://github.com/stdlib-js/math-strided-special-ahaversin-by/tree/esm
+[@stdlib/math/strided/special/ahaversin-by]: https://github.com/stdlib-js/math-strided-special-ahaversin-by
 
-[@stdlib/math/strided/special/asin-by]: https://github.com/stdlib-js/math-strided-special-asin-by/tree/esm
+[@stdlib/math/strided/special/asin-by]: https://github.com/stdlib-js/math-strided-special-asin-by
 
-[@stdlib/math/strided/special/asinh-by]: https://github.com/stdlib-js/math-strided-special-asinh-by/tree/esm
+[@stdlib/math/strided/special/asinh-by]: https://github.com/stdlib-js/math-strided-special-asinh-by
 
-[@stdlib/math/strided/special/atan-by]: https://github.com/stdlib-js/math-strided-special-atan-by/tree/esm
+[@stdlib/math/strided/special/atan-by]: https://github.com/stdlib-js/math-strided-special-atan-by
 
-[@stdlib/math/strided/special/atanh-by]: https://github.com/stdlib-js/math-strided-special-atanh-by/tree/esm
+[@stdlib/math/strided/special/atanh-by]: https://github.com/stdlib-js/math-strided-special-atanh-by
 
-[@stdlib/math/strided/special/avercos-by]: https://github.com/stdlib-js/math-strided-special-avercos-by/tree/esm
+[@stdlib/math/strided/special/avercos-by]: https://github.com/stdlib-js/math-strided-special-avercos-by
 
-[@stdlib/math/strided/special/aversin-by]: https://github.com/stdlib-js/math-strided-special-aversin-by/tree/esm
+[@stdlib/math/strided/special/aversin-by]: https://github.com/stdlib-js/math-strided-special-aversin-by
 
-[@stdlib/math/strided/special/besselj0-by]: https://github.com/stdlib-js/math-strided-special-besselj0-by/tree/esm
+[@stdlib/math/strided/special/besselj0-by]: https://github.com/stdlib-js/math-strided-special-besselj0-by
 
-[@stdlib/math/strided/special/besselj1-by]: https://github.com/stdlib-js/math-strided-special-besselj1-by/tree/esm
+[@stdlib/math/strided/special/besselj1-by]: https://github.com/stdlib-js/math-strided-special-besselj1-by
 
-[@stdlib/math/strided/special/bessely0-by]: https://github.com/stdlib-js/math-strided-special-bessely0-by/tree/esm
+[@stdlib/math/strided/special/bessely0-by]: https://github.com/stdlib-js/math-strided-special-bessely0-by
 
-[@stdlib/math/strided/special/bessely1-by]: https://github.com/stdlib-js/math-strided-special-bessely1-by/tree/esm
+[@stdlib/math/strided/special/bessely1-by]: https://github.com/stdlib-js/math-strided-special-bessely1-by
 
-[@stdlib/math/strided/special/binet-by]: https://github.com/stdlib-js/math-strided-special-binet-by/tree/esm
+[@stdlib/math/strided/special/binet-by]: https://github.com/stdlib-js/math-strided-special-binet-by
 
-[@stdlib/math/strided/special/cbrt]: https://github.com/stdlib-js/math-strided-special-cbrt/tree/esm
+[@stdlib/math/strided/special/cbrt-by]: https://github.com/stdlib-js/math-strided-special-cbrt-by
 
-[@stdlib/math/strided/special/ceil]: https://github.com/stdlib-js/math-strided-special-ceil/tree/esm
+[@stdlib/math/strided/special/cbrt]: https://github.com/stdlib-js/math-strided-special-cbrt
 
-[@stdlib/math/strided/special/dabs]: https://github.com/stdlib-js/math-strided-special-dabs/tree/esm
+[@stdlib/math/strided/special/ceil]: https://github.com/stdlib-js/math-strided-special-ceil
 
-[@stdlib/math/strided/special/dabs2]: https://github.com/stdlib-js/math-strided-special-dabs2/tree/esm
+[@stdlib/math/strided/special/cos-by]: https://github.com/stdlib-js/math-strided-special-cos-by
 
-[@stdlib/math/strided/special/dcbrt]: https://github.com/stdlib-js/math-strided-special-dcbrt/tree/esm
+[@stdlib/math/strided/special/dabs]: https://github.com/stdlib-js/math-strided-special-dabs
 
-[@stdlib/math/strided/special/dceil]: https://github.com/stdlib-js/math-strided-special-dceil/tree/esm
+[@stdlib/math/strided/special/dabs2]: https://github.com/stdlib-js/math-strided-special-dabs2
 
-[@stdlib/math/strided/special/ddeg2rad]: https://github.com/stdlib-js/math-strided-special-ddeg2rad/tree/esm
+[@stdlib/math/strided/special/dcbrt-by]: https://github.com/stdlib-js/math-strided-special-dcbrt-by
 
-[@stdlib/math/strided/special/deg2rad]: https://github.com/stdlib-js/math-strided-special-deg2rad/tree/esm
+[@stdlib/math/strided/special/dcbrt]: https://github.com/stdlib-js/math-strided-special-dcbrt
 
-[@stdlib/math/strided/special/dfloor]: https://github.com/stdlib-js/math-strided-special-dfloor/tree/esm
+[@stdlib/math/strided/special/dceil]: https://github.com/stdlib-js/math-strided-special-dceil
 
-[@stdlib/math/strided/special/dinv]: https://github.com/stdlib-js/math-strided-special-dinv/tree/esm
+[@stdlib/math/strided/special/ddeg2rad]: https://github.com/stdlib-js/math-strided-special-ddeg2rad
 
-[@stdlib/math/strided/special/dmskabs]: https://github.com/stdlib-js/math-strided-special-dmskabs/tree/esm
+[@stdlib/math/strided/special/deg2rad]: https://github.com/stdlib-js/math-strided-special-deg2rad
 
-[@stdlib/math/strided/special/dmskabs2]: https://github.com/stdlib-js/math-strided-special-dmskabs2/tree/esm
+[@stdlib/math/strided/special/dfloor]: https://github.com/stdlib-js/math-strided-special-dfloor
 
-[@stdlib/math/strided/special/dmskcbrt]: https://github.com/stdlib-js/math-strided-special-dmskcbrt/tree/esm
+[@stdlib/math/strided/special/dinv]: https://github.com/stdlib-js/math-strided-special-dinv
 
-[@stdlib/math/strided/special/dmskceil]: https://github.com/stdlib-js/math-strided-special-dmskceil/tree/esm
+[@stdlib/math/strided/special/dmskabs]: https://github.com/stdlib-js/math-strided-special-dmskabs
 
-[@stdlib/math/strided/special/dmskdeg2rad]: https://github.com/stdlib-js/math-strided-special-dmskdeg2rad/tree/esm
+[@stdlib/math/strided/special/dmskabs2]: https://github.com/stdlib-js/math-strided-special-dmskabs2
 
-[@stdlib/math/strided/special/dmskfloor]: https://github.com/stdlib-js/math-strided-special-dmskfloor/tree/esm
+[@stdlib/math/strided/special/dmskcbrt]: https://github.com/stdlib-js/math-strided-special-dmskcbrt
 
-[@stdlib/math/strided/special/dmskinv]: https://github.com/stdlib-js/math-strided-special-dmskinv/tree/esm
+[@stdlib/math/strided/special/dmskceil]: https://github.com/stdlib-js/math-strided-special-dmskceil
 
-[@stdlib/math/strided/special/dmskramp]: https://github.com/stdlib-js/math-strided-special-dmskramp/tree/esm
+[@stdlib/math/strided/special/dmskdeg2rad]: https://github.com/stdlib-js/math-strided-special-dmskdeg2rad
 
-[@stdlib/math/strided/special/dmskrsqrt]: https://github.com/stdlib-js/math-strided-special-dmskrsqrt/tree/esm
+[@stdlib/math/strided/special/dmskfloor]: https://github.com/stdlib-js/math-strided-special-dmskfloor
 
-[@stdlib/math/strided/special/dmsksqrt]: https://github.com/stdlib-js/math-strided-special-dmsksqrt/tree/esm
+[@stdlib/math/strided/special/dmskinv]: https://github.com/stdlib-js/math-strided-special-dmskinv
 
-[@stdlib/math/strided/special/dmsktrunc]: https://github.com/stdlib-js/math-strided-special-dmsktrunc/tree/esm
+[@stdlib/math/strided/special/dmskramp]: https://github.com/stdlib-js/math-strided-special-dmskramp
 
-[@stdlib/math/strided/special/dramp]: https://github.com/stdlib-js/math-strided-special-dramp/tree/esm
+[@stdlib/math/strided/special/dmskrsqrt]: https://github.com/stdlib-js/math-strided-special-dmskrsqrt
 
-[@stdlib/math/strided/special/drsqrt]: https://github.com/stdlib-js/math-strided-special-drsqrt/tree/esm
+[@stdlib/math/strided/special/dmsksqrt]: https://github.com/stdlib-js/math-strided-special-dmsksqrt
 
-[@stdlib/math/strided/special/dsqrt]: https://github.com/stdlib-js/math-strided-special-dsqrt/tree/esm
+[@stdlib/math/strided/special/dmsktrunc]: https://github.com/stdlib-js/math-strided-special-dmsktrunc
 
-[@stdlib/math/strided/special/dtrunc]: https://github.com/stdlib-js/math-strided-special-dtrunc/tree/esm
+[@stdlib/math/strided/special/dramp]: https://github.com/stdlib-js/math-strided-special-dramp
 
-[@stdlib/math/strided/special/floor]: https://github.com/stdlib-js/math-strided-special-floor/tree/esm
+[@stdlib/math/strided/special/drsqrt]: https://github.com/stdlib-js/math-strided-special-drsqrt
 
-[@stdlib/math/strided/special/inv]: https://github.com/stdlib-js/math-strided-special-inv/tree/esm
+[@stdlib/math/strided/special/dsqrt]: https://github.com/stdlib-js/math-strided-special-dsqrt
 
-[@stdlib/math/strided/special/ramp]: https://github.com/stdlib-js/math-strided-special-ramp/tree/esm
+[@stdlib/math/strided/special/dtrunc]: https://github.com/stdlib-js/math-strided-special-dtrunc
 
-[@stdlib/math/strided/special/rsqrt]: https://github.com/stdlib-js/math-strided-special-rsqrt/tree/esm
+[@stdlib/math/strided/special/floor]: https://github.com/stdlib-js/math-strided-special-floor
 
-[@stdlib/math/strided/special/sabs]: https://github.com/stdlib-js/math-strided-special-sabs/tree/esm
+[@stdlib/math/strided/special/inv]: https://github.com/stdlib-js/math-strided-special-inv
 
-[@stdlib/math/strided/special/sabs2]: https://github.com/stdlib-js/math-strided-special-sabs2/tree/esm
+[@stdlib/math/strided/special/ramp]: https://github.com/stdlib-js/math-strided-special-ramp
 
-[@stdlib/math/strided/special/scbrt]: https://github.com/stdlib-js/math-strided-special-scbrt/tree/esm
+[@stdlib/math/strided/special/rsqrt]: https://github.com/stdlib-js/math-strided-special-rsqrt
 
-[@stdlib/math/strided/special/sceil]: https://github.com/stdlib-js/math-strided-special-sceil/tree/esm
+[@stdlib/math/strided/special/sabs]: https://github.com/stdlib-js/math-strided-special-sabs
 
-[@stdlib/math/strided/special/sdeg2rad]: https://github.com/stdlib-js/math-strided-special-sdeg2rad/tree/esm
+[@stdlib/math/strided/special/sabs2]: https://github.com/stdlib-js/math-strided-special-sabs2
 
-[@stdlib/math/strided/special/sfloor]: https://github.com/stdlib-js/math-strided-special-sfloor/tree/esm
+[@stdlib/math/strided/special/scbrt]: https://github.com/stdlib-js/math-strided-special-scbrt
 
-[@stdlib/math/strided/special/sinv]: https://github.com/stdlib-js/math-strided-special-sinv/tree/esm
+[@stdlib/math/strided/special/sceil]: https://github.com/stdlib-js/math-strided-special-sceil
 
-[@stdlib/math/strided/special/smskabs]: https://github.com/stdlib-js/math-strided-special-smskabs/tree/esm
+[@stdlib/math/strided/special/sdeg2rad]: https://github.com/stdlib-js/math-strided-special-sdeg2rad
 
-[@stdlib/math/strided/special/smskabs2]: https://github.com/stdlib-js/math-strided-special-smskabs2/tree/esm
+[@stdlib/math/strided/special/sfloor]: https://github.com/stdlib-js/math-strided-special-sfloor
 
-[@stdlib/math/strided/special/smskcbrt]: https://github.com/stdlib-js/math-strided-special-smskcbrt/tree/esm
+[@stdlib/math/strided/special/sin-by]: https://github.com/stdlib-js/math-strided-special-sin-by
 
-[@stdlib/math/strided/special/smskceil]: https://github.com/stdlib-js/math-strided-special-smskceil/tree/esm
+[@stdlib/math/strided/special/sinv]: https://github.com/stdlib-js/math-strided-special-sinv
 
-[@stdlib/math/strided/special/smskdeg2rad]: https://github.com/stdlib-js/math-strided-special-smskdeg2rad/tree/esm
+[@stdlib/math/strided/special/smskabs]: https://github.com/stdlib-js/math-strided-special-smskabs
 
-[@stdlib/math/strided/special/smskfloor]: https://github.com/stdlib-js/math-strided-special-smskfloor/tree/esm
+[@stdlib/math/strided/special/smskabs2]: https://github.com/stdlib-js/math-strided-special-smskabs2
 
-[@stdlib/math/strided/special/smskinv]: https://github.com/stdlib-js/math-strided-special-smskinv/tree/esm
+[@stdlib/math/strided/special/smskcbrt]: https://github.com/stdlib-js/math-strided-special-smskcbrt
 
-[@stdlib/math/strided/special/smskramp]: https://github.com/stdlib-js/math-strided-special-smskramp/tree/esm
+[@stdlib/math/strided/special/smskceil]: https://github.com/stdlib-js/math-strided-special-smskceil
 
-[@stdlib/math/strided/special/smskrsqrt]: https://github.com/stdlib-js/math-strided-special-smskrsqrt/tree/esm
+[@stdlib/math/strided/special/smskdeg2rad]: https://github.com/stdlib-js/math-strided-special-smskdeg2rad
 
-[@stdlib/math/strided/special/smsksqrt]: https://github.com/stdlib-js/math-strided-special-smsksqrt/tree/esm
+[@stdlib/math/strided/special/smskfloor]: https://github.com/stdlib-js/math-strided-special-smskfloor
 
-[@stdlib/math/strided/special/smsktrunc]: https://github.com/stdlib-js/math-strided-special-smsktrunc/tree/esm
+[@stdlib/math/strided/special/smskinv]: https://github.com/stdlib-js/math-strided-special-smskinv
 
-[@stdlib/math/strided/special/sqrt]: https://github.com/stdlib-js/math-strided-special-sqrt/tree/esm
+[@stdlib/math/strided/special/smskramp]: https://github.com/stdlib-js/math-strided-special-smskramp
 
-[@stdlib/math/strided/special/sramp]: https://github.com/stdlib-js/math-strided-special-sramp/tree/esm
+[@stdlib/math/strided/special/smskrsqrt]: https://github.com/stdlib-js/math-strided-special-smskrsqrt
 
-[@stdlib/math/strided/special/srsqrt]: https://github.com/stdlib-js/math-strided-special-srsqrt/tree/esm
+[@stdlib/math/strided/special/smsksqrt]: https://github.com/stdlib-js/math-strided-special-smsksqrt
 
-[@stdlib/math/strided/special/ssqrt]: https://github.com/stdlib-js/math-strided-special-ssqrt/tree/esm
+[@stdlib/math/strided/special/smsktrunc]: https://github.com/stdlib-js/math-strided-special-smsktrunc
 
-[@stdlib/math/strided/special/strunc]: https://github.com/stdlib-js/math-strided-special-strunc/tree/esm
+[@stdlib/math/strided/special/sqrt-by]: https://github.com/stdlib-js/math-strided-special-sqrt-by
 
-[@stdlib/math/strided/special/trunc]: https://github.com/stdlib-js/math-strided-special-trunc/tree/esm
+[@stdlib/math/strided/special/sqrt]: https://github.com/stdlib-js/math-strided-special-sqrt
+
+[@stdlib/math/strided/special/sramp]: https://github.com/stdlib-js/math-strided-special-sramp
+
+[@stdlib/math/strided/special/srsqrt]: https://github.com/stdlib-js/math-strided-special-srsqrt
+
+[@stdlib/math/strided/special/ssqrt]: https://github.com/stdlib-js/math-strided-special-ssqrt
+
+[@stdlib/math/strided/special/strunc]: https://github.com/stdlib-js/math-strided-special-strunc
+
+[@stdlib/math/strided/special/trunc]: https://github.com/stdlib-js/math-strided-special-trunc
 
 <!-- </toc-links> -->
 
