@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { abs, abs2, abs2By, absBy, acosBy, acoshBy, acotBy, acothBy, acovercosBy, acoversinBy, ahavercosBy, ahaversinBy, asinBy, asinhBy, atanBy, atanhBy, avercosBy, aversinBy, besselj0By, besselj1By, bessely0By, bessely1By, binetBy, cbrt, cbrtBy, ceil, cosBy, dabs, dabs2, dcbrt, dcbrtBy, dceil, ddeg2rad, deg2rad, dfloor, dinv, dmskabs, dmskabs2, dmskcbrt, dmskceil, dmskdeg2rad, dmskfloor, dmskinv, dmskramp, dmskrsqrt, dmsksqrt, dmsktrunc, dramp, drsqrt, dsqrt, dtrunc, floor, inv, ramp, rsqrt, sabs, sabs2, scbrt, sceil, sdeg2rad, sfloor, sinBy, sinv, smskabs, smskabs2, smskcbrt, smskceil, smskdeg2rad, smskfloor, smskinv, smskramp, smskrsqrt, smsksqrt, smsktrunc, sqrt, sqrtBy, sramp, srsqrt, ssqrt, strunc, trunc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@deno/mod.js';
+import { abs, abs2, abs2By, absBy, acosBy, acoshBy, acotBy, acothBy, acovercosBy, acoversinBy, ahavercosBy, ahaversinBy, asinBy, asinhBy, atanBy, atanhBy, avercosBy, aversinBy, besselj0By, besselj1By, bessely0By, bessely1By, binetBy, cbrt, cbrtBy, ceil, cosBy, dabs, dabs2, dcbrt, dcbrtBy, dceil, ddeg2rad, deg2rad, dfloor, dinv, dmskabs, dmskabs2, dmskcbrt, dmskceil, dmskdeg2rad, dmskfloor, dmskinv, dmskramp, dmskrsqrt, dmsksqrt, dmsktrunc, dramp, drsqrt, dsqrt, dtrunc, floor, inv, ramp, rsqrt, sabs, sabs2, scbrt, sceil, sdeg2rad, sfloor, sinBy, sinv, smskabs, smskabs2, smskcbrt, smskceil, smskdeg2rad, smskfloor, smskinv, smskramp, smskrsqrt, smsksqrt, smsktrunc, sqrt, sqrtBy, sramp, srsqrt, ssqrt, strunc, trunc } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@v0.1.0-deno/mod.js';
 ```
 
 #### ns
@@ -166,7 +166,7 @@ The namespace contains the following strided array functions:
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special@v0.1.0-deno/mod.js';
 
 console.log( objectKeys( ns ) );
 ```
