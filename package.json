@@ -128,7 +128,6 @@
     "@stdlib/array-typed-real-float-dtypes": "^0.1.1",
     "@stdlib/array-uint8": "^0.1.1",
     "@stdlib/assert-is-browser": "^0.1.1",
-    "@stdlib/bench": "^0.2.1",
     "@stdlib/fs-write-file": "^0.1.1",
     "@stdlib/math-base-assert-is-nan": "^0.1.1",
     "@stdlib/math-base-assert-is-nanf": "^0.1.1",
@@ -201,7 +200,8 @@
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
-    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.1.2"
   },
   "engines": {
     "node": ">=0.10.0",
