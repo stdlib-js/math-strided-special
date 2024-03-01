@@ -121,8 +121,8 @@
     "@stdlib/utils-define-read-only-property": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-filled": "^0.2.0",
-    "@stdlib/array-filled-by": "^0.2.0",
+    "@stdlib/array-filled": "^0.2.1",
+    "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float32": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-typed-real-float-dtypes": "^0.2.1",
@@ -179,9 +179,9 @@
     "@stdlib/math-base-special-trunc": "^0.2.1",
     "@stdlib/math-base-special-truncf": "^0.2.1",
     "@stdlib/ndarray-base-dtypes2signatures": "^0.2.1",
-    "@stdlib/random-base-discrete-uniform": "^0.2.0",
-    "@stdlib/random-base-randu": "^0.2.0",
-    "@stdlib/random-base-uniform": "^0.2.0",
+    "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-randu": "^0.2.1",
+    "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/strided-base-dmap": "^0.2.1",
     "@stdlib/strided-base-dmskmap": "^0.2.1",
     "@stdlib/strided-base-dtype-enum2str": "^0.2.1",
