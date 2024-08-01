@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/math-strided-special-abs": "^0.2.2",
-    "@stdlib/math-strided-special-abs-by": "^0.2.1",
+    "@stdlib/math-strided-special-abs-by": "^0.2.2",
     "@stdlib/math-strided-special-abs2": "^0.2.2",
     "@stdlib/math-strided-special-abs2-by": "^0.2.2",
     "@stdlib/math-strided-special-acos-by": "^0.2.2",
