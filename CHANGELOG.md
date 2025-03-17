@@ -4,23 +4,161 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="math-strided-special-deg2rad-unreleased">
+
+#### [@stdlib/math/strided/special/deg2rad](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/deg2rad)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5960](https://github.com/stdlib-js/stdlib/issues/5960)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-strided-special-dmskabs2-unreleased">
+
+#### [@stdlib/math/strided/special/dmskabs2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/dmskabs2)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5857](https://github.com/stdlib-js/stdlib/issues/5857)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-strided-special-dmskrsqrt-unreleased">
+
+#### [@stdlib/math/strided/special/dmskrsqrt](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/dmskrsqrt)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5835](https://github.com/stdlib-js/stdlib/issues/5835)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-strided-special-smskceil-unreleased">
+
+#### [@stdlib/math/strided/special/smskceil](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/smskceil)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5503](https://github.com/stdlib-js/stdlib/issues/5503)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="math-strided-special-sramp-unreleased">
+
+#### [@stdlib/math/strided/special/sramp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/math/strided/special/sramp)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5792](https://github.com/stdlib-js/stdlib/issues/5792)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+A total of 5 issues were closed in this release:
+
+[#5503](https://github.com/stdlib-js/stdlib/issues/5503), [#5792](https://github.com/stdlib-js/stdlib/issues/5792), [#5835](https://github.com/stdlib-js/stdlib/issues/5835), [#5857](https://github.com/stdlib-js/stdlib/issues/5857), [#5960](https://github.com/stdlib-js/stdlib/issues/5960)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Anshu Kumar
+-   Athan Reines
+-   Dhanyabad behera
+-   Hemant M Mehta
+-   Kaushikgtm
 -   Philipp Burckhardt
+-   Yugal Kaushik
 
 </section>
 
@@ -32,6 +170,12 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`40b4245`](https://github.com/stdlib-js/stdlib/commit/40b4245a2a2ddc1fc8d93ea54a6f629102a037bc) - **chore:** fix EditorConfig lint errors [(#5970)](https://github.com/stdlib-js/stdlib/pull/5970) _(by Kaushikgtm)_
+-   [`6010275`](https://github.com/stdlib-js/stdlib/commit/601027582bebc4b2f76cf9ea598a9646759f6bff) - **chore:** fix EditorConfig lint errors by replacing tabs with spaces [(#5910)](https://github.com/stdlib-js/stdlib/pull/5910) _(by Dhanyabad behera)_
+-   [`0e31615`](https://github.com/stdlib-js/stdlib/commit/0e3161565a04f0f41fd52e70f9e816d9821bcb0b) - **chore(math):** replace tabs with spaces in `manifest.json` [(#5843)](https://github.com/stdlib-js/stdlib/pull/5843) _(by Anshu Kumar)_
+-   [`99a8508`](https://github.com/stdlib-js/stdlib/commit/99a85088ac88f39a2f28012248c40a8bf28e0cfd) - **chore:** fix C lint error [(#5804)](https://github.com/stdlib-js/stdlib/pull/5804) _(by Hemant M Mehta)_
+-   [`b0b646a`](https://github.com/stdlib-js/stdlib/commit/b0b646a0d8854af8ae3ecbadd1394cee0131f160) - **bench:** suppress uninitialized variable warning [(#5523)](https://github.com/stdlib-js/stdlib/pull/5523) _(by Yugal Kaushik)_
+-   [`769b921`](https://github.com/stdlib-js/stdlib/commit/769b921be1ac5285f0becdaaae27cace376ee124) - **docs:** update related packages sections [(#4638)](https://github.com/stdlib-js/stdlib/pull/4638) _(by stdlib-bot, Athan Reines)_
 -   [`8f2808d`](https://github.com/stdlib-js/stdlib/commit/8f2808dec8c8a6508841e86453fba823823efc6c) - **docs:** update related packages sections [(#4302)](https://github.com/stdlib-js/stdlib/pull/4302) _(by stdlib-bot)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
