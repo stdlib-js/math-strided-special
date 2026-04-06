@@ -194,7 +194,7 @@
     "@stdlib/strided-base-unary-addon-dispatch": "^0.3.1",
     "@stdlib/strided-dispatch": "^0.2.3",
     "@stdlib/strided-dtypes": "^0.3.1",
-    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3",
     "@stdlib/utils-keys": "^0.2.3",
     "@stdlib/utils-try-require": "^0.2.3",
