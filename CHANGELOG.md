@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-06)
+## Unreleased (2026-05-14)
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#10556](https://github.com/stdlib-js/stdlib/issues/10556), [#10945](https://github.com/stdlib-js/stdlib/issues/10945), [#11014](https://github.com/stdlib-js/stdlib/issues/11014)
+[#10084](https://github.com/stdlib-js/stdlib/issues/10084), [#10556](https://github.com/stdlib-js/stdlib/issues/10556), [#10945](https://github.com/stdlib-js/stdlib/issues/10945), [#11014](https://github.com/stdlib-js/stdlib/issues/11014), [#11312](https://github.com/stdlib-js/stdlib/issues/11312), [#11685](https://github.com/stdlib-js/stdlib/issues/11685)
 
 </section>
 
@@ -24,6 +24,25 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`85ce241`](https://github.com/stdlib-js/stdlib/commit/85ce2413da6275c149f34964adef0678becfd220) - **docs:** add missing keywords in `math/strided/special` packages [(#11943)](https://github.com/stdlib-js/stdlib/pull/11943) _(by Philipp Burckhardt)_
+-   [`bf821ca`](https://github.com/stdlib-js/stdlib/commit/bf821ca698340a14342ae1b12b5ea74b339f6adf) - **chore:** propagate recent fixes to sibling packages [(#11696)](https://github.com/stdlib-js/stdlib/pull/11696) _(by Philipp Burckhardt)_
+-   [`23d316f`](https://github.com/stdlib-js/stdlib/commit/23d316f6eda9201e0827d9f98ee523f9270d5939) - **bench:** refactor to use dynamic memory allocation in `maths/strided/special` [(#11697)](https://github.com/stdlib-js/stdlib/pull/11697) _(by Uday Kakade)_
+-   [`1089250`](https://github.com/stdlib-js/stdlib/commit/1089250db272eca254d75532dcc159a6a0aaafc3) - **chore:** fix JavaScript lint errors [(#11692)](https://github.com/stdlib-js/stdlib/pull/11692) _(by Matt Van Horn, Athan Reines)_
+-   [`39f9ad9`](https://github.com/stdlib-js/stdlib/commit/39f9ad9302a52b735769bcf0c25b11dbe87c9b7a) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dramp` [(#11664)](https://github.com/stdlib-js/stdlib/pull/11664) _(by Uday Kakade)_
+-   [`05b2f70`](https://github.com/stdlib-js/stdlib/commit/05b2f70915fae6980da8ed1fca63caa8af7e67ec) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dabs` [(#11655)](https://github.com/stdlib-js/stdlib/pull/11655) _(by Uday Kakade)_
+-   [`cbfa3ed`](https://github.com/stdlib-js/stdlib/commit/cbfa3edba69272dd350ed36de546c3d5c565c38c) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dab2` [(#11656)](https://github.com/stdlib-js/stdlib/pull/11656) _(by Uday Kakade)_
+-   [`2665799`](https://github.com/stdlib-js/stdlib/commit/2665799f49ffca226f58dbae3219e6f6305590ee) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dcbrt` [(#11661)](https://github.com/stdlib-js/stdlib/pull/11661) _(by Uday Kakade)_
+-   [`cb25af1`](https://github.com/stdlib-js/stdlib/commit/cb25af165ecfc0a8463fe171865094447b0be634) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dceil` [(#11662)](https://github.com/stdlib-js/stdlib/pull/11662) _(by Uday Kakade)_
+-   [`d44b144`](https://github.com/stdlib-js/stdlib/commit/d44b144df2681c91a8108d00cc16afd5833a8249) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/ddeg2rad` [(#11663)](https://github.com/stdlib-js/stdlib/pull/11663) _(by Uday Kakade)_
+-   [`5029670`](https://github.com/stdlib-js/stdlib/commit/5029670736574df60258c5519cf1f6670b50806e) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/drsqrt` [(#11665)](https://github.com/stdlib-js/stdlib/pull/11665) _(by Uday Kakade)_
+-   [`0359230`](https://github.com/stdlib-js/stdlib/commit/0359230c32ad65ec22d76e3c6fb5679c9dd88255) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dinv` [(#11666)](https://github.com/stdlib-js/stdlib/pull/11666) _(by Uday Kakade)_
+-   [`4948ecc`](https://github.com/stdlib-js/stdlib/commit/4948ecca63ca031e99f94d72def40f445852e4db) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dsqrt` [(#11668)](https://github.com/stdlib-js/stdlib/pull/11668) _(by Uday Kakade)_
+-   [`2cd5062`](https://github.com/stdlib-js/stdlib/commit/2cd5062361403748ac15fd295708f925d4c3c92f) - **bench:** refactor to use dynamic memory allocation in `math/strided/special/dtrunc` [(#11669)](https://github.com/stdlib-js/stdlib/pull/11669) _(by Uday Kakade)_
+-   [`a94a4ef`](https://github.com/stdlib-js/stdlib/commit/a94a4efa9cf521c2e6257deccb9fce9cf4451d57) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11364)](https://github.com/stdlib-js/stdlib/pull/11364) _(by Karan Anand)_
+-   [`45ea471`](https://github.com/stdlib-js/stdlib/commit/45ea471c7617506879b6fdaea16a2ef6f851f62d) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11363)](https://github.com/stdlib-js/stdlib/pull/11363) _(by Karan Anand)_
+-   [`be9f744`](https://github.com/stdlib-js/stdlib/commit/be9f7445e37168f514e83041e80e9495c49fd9d9) - **bench:** refactor to use string interpolation in `math/strided/special` [(#11362)](https://github.com/stdlib-js/stdlib/pull/11362) _(by Karan Anand)_
+-   [`1fa7f29`](https://github.com/stdlib-js/stdlib/commit/1fa7f295e091693d97d2a5c1856d1ad2b0cb3b8e) - **chore:** fix JavaScript lint errors [(#10087)](https://github.com/stdlib-js/stdlib/pull/10087) _(by Kunal Dadlani, Athan Reines, stdlib-bot)_
+-   [`236975e`](https://github.com/stdlib-js/stdlib/commit/236975ef9628ac4c6b9e867325e37a2d9e641ba2) - **chore:** fix C lint errors [(#11313)](https://github.com/stdlib-js/stdlib/pull/11313) _(by Geo Daoyu)_
 -   [`cd99fef`](https://github.com/stdlib-js/stdlib/commit/cd99fef661e7a5f6e600ee81295ec4dbc8501187) - **docs:** fix C examples [(#11135)](https://github.com/stdlib-js/stdlib/pull/11135) _(by anee3)_
 -   [`2c843b8`](https://github.com/stdlib-js/stdlib/commit/2c843b85223c779af86697cef8522f3f6d955976) - **bench:** refactor to use string interpolation in `math/strided/special/abs` [(#11092)](https://github.com/stdlib-js/stdlib/pull/11092) _(by Partha Das)_
 -   [`dc2ab17`](https://github.com/stdlib-js/stdlib/commit/dc2ab175c0358e31a4e1702c73d4c91c1a6c4e6b) - **chore:** fix JavaScript lint errors [(#11015)](https://github.com/stdlib-js/stdlib/pull/11015) _(by Baixiaochun, Athan Reines)_
@@ -41,13 +60,17 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Baixiaochun
 -   Geo Daoyu
+-   Karan Anand
+-   Kunal Dadlani
+-   Matt Van Horn
 -   Partha Das
 -   Philipp Burckhardt
+-   Uday Kakade
 -   anee3
 
 </section>
