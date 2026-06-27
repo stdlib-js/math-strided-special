@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-06-27)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
 -   [`85ce241`](https://github.com/stdlib-js/stdlib/commit/85ce2413da6275c149f34964adef0678becfd220) - **docs:** add missing keywords in `math/strided/special` packages [(#11943)](https://github.com/stdlib-js/stdlib/pull/11943) _(by Philipp Burckhardt)_
 -   [`bf821ca`](https://github.com/stdlib-js/stdlib/commit/bf821ca698340a14342ae1b12b5ea74b339f6adf) - **chore:** propagate recent fixes to sibling packages [(#11696)](https://github.com/stdlib-js/stdlib/pull/11696) _(by Philipp Burckhardt)_
 -   [`23d316f`](https://github.com/stdlib-js/stdlib/commit/23d316f6eda9201e0827d9f98ee523f9270d5939) - **bench:** refactor to use dynamic memory allocation in `maths/strided/special` [(#11697)](https://github.com/stdlib-js/stdlib/pull/11697) _(by Uday Kakade)_
