@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-16)
+## Unreleased (2026-11-17)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`77225ca`](https://github.com/stdlib-js/stdlib/commit/77225ca6e99bacd8c41ceb4919ac4d6120d360c8) - **docs:** update namespace table of contents [(#16671)](https://github.com/stdlib-js/stdlib/pull/16671) _(by stdlib-bot)_
+-   [`07ca4c5`](https://github.com/stdlib-js/stdlib/commit/07ca4c54806085c09b4a9c0fa47892595a7442fe) - **docs:** add missing dtype parameters [(#16650)](https://github.com/stdlib-js/stdlib/pull/16650) _(by Philipp Burckhardt)_
 -   [`e8fac32`](https://github.com/stdlib-js/stdlib/commit/e8fac328731c2f7bb5b331edc9edf08048f67a18) - **docs:** update related packages sections [(#13820)](https://github.com/stdlib-js/stdlib/pull/13820) _(by stdlib-bot)_
 -   [`b4c05f9`](https://github.com/stdlib-js/stdlib/commit/b4c05f93e9d0b9f27478a49582fa9e8ae213f38d) - **fix:** address typo in parameter name [(#12457)](https://github.com/stdlib-js/stdlib/pull/12457) _(by Philipp Burckhardt)_
 -   [`85ce241`](https://github.com/stdlib-js/stdlib/commit/85ce2413da6275c149f34964adef0678becfd220) - **docs:** add missing keywords in `math/strided/special` packages [(#11943)](https://github.com/stdlib-js/stdlib/pull/11943) _(by Philipp Burckhardt)_
